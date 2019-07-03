@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
-    @IBOutlet weak var tempC: UITextField!
-    @IBOutlet weak var cityLabel: UITextField!
+    @IBOutlet weak var tempC: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var CountryObject: UILabel!
     
     

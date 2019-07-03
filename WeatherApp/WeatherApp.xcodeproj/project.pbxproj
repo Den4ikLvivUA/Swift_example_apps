@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3FBD4222CBD29500CFD7EB /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FBD4122CBD29500CFD7EB /* InfoVC.swift */; };
 		BC71167121DF78D300A4BCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC71167021DF78D300A4BCA8 /* AppDelegate.swift */; };
 		BC71167321DF78D300A4BCA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC71167221DF78D300A4BCA8 /* ViewController.swift */; };
 		BC71167621DF78D300A4BCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC71167421DF78D300A4BCA8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC3FBD4122CBD29500CFD7EB /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 		BC71166D21DF78D300A4BCA8 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC71167021DF78D300A4BCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC71167221DF78D300A4BCA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				BC71167021DF78D300A4BCA8 /* AppDelegate.swift */,
 				BC71167221DF78D300A4BCA8 /* ViewController.swift */,
+				BC3FBD4122CBD29500CFD7EB /* InfoVC.swift */,
 				BC71167421DF78D300A4BCA8 /* Main.storyboard */,
 				BC71167721DF78D700A4BCA8 /* Assets.xcassets */,
 				BC71167921DF78D700A4BCA8 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					BC71166C21DF78D300A4BCA8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC71167321DF78D300A4BCA8 /* ViewController.swift in Sources */,
+				BC3FBD4222CBD29500CFD7EB /* InfoVC.swift in Sources */,
 				BC71167121DF78D300A4BCA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +295,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = den4iklvivua.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -307,7 +312,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = den4iklvivua.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
